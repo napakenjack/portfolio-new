@@ -47,11 +47,6 @@ Swap image files by keeping (or updating) the referenced paths:
 - Edit `contactInfo` and `socialLinks` inside `content/site.ts`
 - Contact page + footer will update automatically.
 
-
-## GitHub Pages / GitHub Actions note
-If your workflow uses `actions/setup-node` with npm cache, keep `package-lock.json` committed.
-Without a lock file, setup-node fails with: `Dependencies lock file is not found`.
-
 ## Architecture notes
 - App Router structure in `/app`
 - Reusable UI components in `/components`
